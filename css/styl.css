@@ -1,0 +1,1190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0%;
+}
+
+/* media qery */
+
+
+
+
+body, html {
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    :root {
+      scroll-behavior: auto;
+    }
+  }
+
+  
+.home{
+    background-image: url(intro-bg.jpg);
+    height: 100vh;
+   position: relative;
+   background-position: center;
+
+
+  
+}
+.home::after {
+    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+    content:"";
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    
+}
+.navabr-ul{
+background-color: rgb(193, 193, 193);
+
+}
+.navbar-nav{
+    text-align: center;
+    display: flex;  
+    position: fixed;
+    background-color:rgba(0, 0, 0, 0.5);
+    justify-content: space-evenly;
+    width: 100%;
+z-index: 11 ;
+       
+}
+.navbar-nav img{
+    WIDTH: 8%;
+    HEIGHT: 22%;
+    MARGIN-TOP: 18PX;
+}
+
+.nav-item{
+    list-style-type: none;
+    margin: 20px 0px;
+   
+    
+
+}
+.nav-item a{
+    text-decoration: none;
+    color: azure;
+    transition: all 0.2s;
+
+}
+.nav-item a:hover{
+    color: #20c997;
+}
+
+
+
+
+
+
+.home-contaite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    HEIGHT: 631PX;
+    font-weight: 500 !important;
+    /*  */
+    z-index: 111;
+
+    
+}
+.home-contaite h1{
+    text-align: center;
+    font-weight: 500 !important;
+    color: #dee3e4 !important;
+
+}
+
+.home-contaite P{
+    color: #dee3e4 !important;
+    font-size: 1.3125rem !important;
+    margin: 20PX 0PX;
+    /* animation-name: cont-p ;
+    animation-duration: 4s; */
+    /* position: relative; */
+    
+}
+.home-contaite h2{
+    /* font-weight: 500 !important; */
+    color: #dee3e4 !important;
+    margin-bottom: 15px;
+    margin: 20PX 0PX;
+
+    font-size: 1.3125rem !important;
+
+}
+
+.home-contaite P::before{
+    /* position: absolute; */
+    content: "|";
+    animation-name: cont-p ;
+    animation-duration: 4s;
+
+    animation-iteration-count: infinite;
+    font-size: xx-large;
+
+    color: #dee3e4 !important;
+}
+
+
+
+@keyframes cont-p {
+    0%{ content: "i|";}
+    5%{ content: "i'|";}
+    10%{ content: "i'm|";}
+    15%{ content: "i'm |";}
+    20%{ content: "i'm a|";}
+    25%{ content: "i'm a |";}
+    30%{ content: "i'm a p|";}
+    35%{ content: "i'm a ph|";}
+    40%{ content: "i'm a pht|";}
+    45%{ content: "i'm a phto|";}
+    50%{ content: "i'm a phtog|";}
+    55%{ content: "i'm a phtogr|";}
+    60%{ content: "i'm a phtogra|";}
+    65%{ content: "i'm a phtograp|";}
+    70%{ content: "i'm a phtograph|";}
+    75%{ content: "i'm a phtographe|";}
+    80%{ content: "i'm a phtographer|";}
+    85%{ content: "i'm a phtographer .|";}
+
+    90%{ content: "i'm a phtographer ..|";}
+    95%{ content: "i'm a phtographer ...|";}
+
+    95%{ content: "i'm a phtographer ....|";}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+.home-contaite button{
+    text-align: center;
+    width: 93PX;
+    HEIGHT: 40PX;
+    BORDER: 2PX SOLID #20c997;
+    BACKGROUND-COLOR: #422b5800;
+    color: #20c997;
+    BORDER-RADIUS: 25PX;
+    transition: all 0.2s;
+
+}
+.home-contaite button:hover{
+    background-color: #20c997;
+    color: #dee3e4;
+}
+
+
+
+
+/* first about */
+
+.about{
+    padding: 50px;
+    /* background-color: #dee3e4; */
+    position: relative;
+}
+.about-logo h2{
+    width: 100%;
+    font-size:100px;
+    color: rgba(0, 0, 0, 0.131);
+    text-align: center;
+}
+.about-logo p{
+    text-align: center;
+    position: absolute;
+    font-weight: 600 !important;
+    font-size: xx-large;
+    color: #212529!important;
+    top: 13%;
+    right: 45%;
+
+}
+.about-logo hr{
+    border: 1px solid #20c997;
+    position: absolute;
+    right: 50%;
+    width: 70px;
+    top: 150px;
+}
+
+.about-contner{
+    width: auto;
+    height: 300pX;
+    display: flex;
+    justify-content: center;
+    padding: 20PX;
+    margin-top: 30px;
+}
+.about-p{
+    padding: 10PX;
+}
+.about-p h3{
+    font-weight: 600 !important;
+    margin-bottom: 1rem!important;
+}
+.about-p h3 span{
+    color: #20c997 !important;
+}
+.about-p P{
+    line-height: 1.8;
+}
+
+
+
+
+.about-ul{
+    padding: 20PX;
+    margin-top: 10px;
+
+}
+.about-ul ul{
+
+    
+}
+
+.about-ul ul{
+
+
+}
+
+.about-ul ul li{
+    margin-bottom: 10PX;
+    list-style-type: none;
+
+}
+.about-ul A{
+    color: #20c997;
+    text-decoration: none;
+}
+.about-ul button{
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: 0px -2px 19px #20c997;
+    color: white;
+    text-decoration: none;
+    background-color: #20c997;
+    margin-top: 10px;
+    height: 50px;
+    width: 100px;
+    transition: all 1s;
+}
+.about-ul button:hover{
+
+    background-color:#198754 ;
+
+}
+
+
+.about-ul ul hr{
+color:#eaeaea ;
+    margin-bottom: 10PX;
+}
+.about-ul ul li span{
+    font-weight: 600 !important;
+    margin-right: 0.5rem!important;
+}
+.bar-about{
+    display: flex;
+    justify-content: center ;
+    text-align: center;
+    margin-left: 40px;
+}
+.bar-about h4{
+    color: #6c757d!important;
+    font-size: calc(1.425rem + 2.1vw) !important;
+    
+}
+
+.bar-about p{
+    
+    color: #4c4d4d;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.bar-about1{
+    width: 24%;
+    
+    border-right: 2px dotted #e0dede;
+}
+
+
+
+.bar-about2{
+    width: 24%;
+    border-right: 2px dotted #e0dede;
+}
+.bar-about3{
+    width: 24%;
+    border-right: 2px dotted #e0dede;
+}
+
+.bar-about4{
+    width: 24%;
+   
+}
+
+/* first contanir abut ibo */
+
+
+.contanir-ido{
+margin: 5px ;
+padding:20px ; 
+width: 96%;
+background-color: #7b8084;
+}
+.contanir-logo{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center!important;
+    align-items: flex-start;
+    position: relative;
+}
+.contanir-logo h2{
+    line-height: 1.3;
+    font-size: calc(1.95rem + 8.4vw) !important;
+    color: #dee3e4 !important;
+    opacity: 0.4;
+    
+}
+
+.contanir-logo p{
+    font-size: 2.25rem !important;
+    color: #212529!important;
+padding-top: 20px;
+position: absolute;
+margin-top: 30px;
+}
+
+.contanir-logo hr{
+    border: 1px solid #20c997;
+    position: absolute;
+    right: 48%;
+    width: 70px;
+    top: 100px;
+}
+
+
+
+.contanir-wrap{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+   
+
+}
+.clom{
+    margin-bottom: 5px;
+    padding: 5px;;
+    width: 35%;
+    position: relative;
+    
+    
+}
+.clom i{
+    background-color: #dee3e4;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.clom h2{
+    font-weight: 500;
+    position: absolute;
+    top: 0px;
+    left: 85PX;
+    
+
+}
+
+
+.clom p{
+    line-height: 1.8;
+    position: relative;
+    left: 80px;
+    TOP:-35px;
+    width: 75%;
+}
+
+
+/* first clien */
+.contanir-clinet{
+    margin: 10px;
+    padding: 25px;
+  width: 100%;
+}
+
+.clinet-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  position: relative;
+}
+.clinet-logo h2{
+    line-height: 1.3;
+    font-size: calc(1.95rem + 8.4vw) !important;
+    color: #dee3e4 !important;
+    opacity: 0.4;
+}
+
+.clinet-logo p{
+    font-size: 2.25rem !important;
+    color: #212529!important;
+padding-top: 20px;
+position: absolute;
+margin-top: 30px;
+}
+
+.clinet-logo hr{
+    border: 1px solid #20c997;
+    position: absolute;
+    right: 48%;
+    width: 70px;
+    top: 100px;
+}
+
+   
+
+
+.clinet-wrop{
+    padding: 50px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.clinet-wrop p{
+    width: 48%;
+    font-weight: 600 !important;
+    margin-bottom: 25px;
+    font-weight: 600 !important;
+}
+.colm{
+    background-color: #fff!important;
+    border: 1px solid #6c757d5d;
+    width:43%;
+    border-radius: 0.25rem!important;
+    padding: 10px;
+    margin: 5px;
+}
+.colm h4{
+margin-bottom: 5px;
+    background-color: #198754;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    color: wheat;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+.colm h3{
+    font-weight: 600 !important;
+
+
+    color: #252b33;
+}
+
+
+
+.colm h5{
+    color: #dc3545!important;
+    line-height: 1.8;
+}
+.colm p{
+    line-height: 1.8;
+    color: #4c4d4d;
+
+}
+
+
+
+
+.contanir-persnt{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 10px;
+    justify-content: space-around;
+
+}
+.may-skills{
+    margin: 25px 5px;
+    width: 42%;
+
+
+}
+.logo-persnt{
+    text-align: initial;
+    font-weight: 600 !important;
+    left: 50px;
+    position: relative;
+}
+
+
+
+.may-persntch{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+
+}
+
+.may-persntch div{
+    background-color: #75817d;
+    width: 100%;
+    position: absolute;
+    border-radius: 5%;
+    top: 27px;
+    RIGHT: 15px;
+    height: 10px;
+}
+.may-persntch div::after{
+    content: " ";
+    background-color: #22c88c;
+    width: 71%;
+    position: absolute;
+    border-radius: 5%;
+    top: 0px;
+    height: 10px;
+}
+.butom-persntch{
+position: relative;
+left: 40%;
+
+    color: #4c4d4d;
+    font-family: "Poppins", sans-serif;
+    width: 15%;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #4c4d4d;;
+    border-radius: 35px;
+    transition: all 1s;
+
+
+
+}
+.butom-persntch:hover{
+
+    background-color:#4c4d4d;
+    color: white ;
+    
+
+}
+
+.butom-persntch a{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #4c4d4d;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    transition: all  0.5s;
+
+
+}
+
+
+.butom-persntch a i{
+    margin: 5px;
+}
+ .butom-persntch a:hover{
+    color: white ;
+
+} 
+
+
+/* first garly */
+
+
+.contanir-garly{
+    margin: 5px ;
+    padding:20px ;
+    width: 100%;
+    /* background-color: #375c80!important; */
+    margin-right: auto;
+    border: 10px;
+    border: 1px solid;
+    margin-left: auto;
+}
+    
+    .contanir-logo{
+        display: flex;
+        justify-content:space-evenly;
+        text-align: center!important;
+        align-items: flex-start;
+        position: relative;
+    }
+    .contanir-logo h2{
+        line-height: 1.3;
+        font-size: calc(1.95rem + 8.4vw) !important;
+        color: #dee3e4 !important;
+        opacity: 0.4;
+        
+    }
+    
+    .contanir-logo p{
+        font-size: 2.25rem !important;
+        color: #212529!important;
+    padding-top: 20px;
+    position: absolute;
+    margin-top: 30px;
+    }
+    
+    .contanir-logo hr{
+        border: 1px solid #20c997;
+        position: absolute;
+        right: 48%;
+        width: 70px;
+        top: 100px;
+    }
+    
+
+
+
+
+
+    .nav-garly{
+       margin-bottom: 30px;
+
+    }
+
+    .nav-garly ul{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    .nav-garly ul li{
+        list-style: none;
+    }
+
+
+    .nav-garly ul a{
+         text-decoration: none;
+         color: #7b8084;
+         transition: all 0.5s;
+    }
+    .nav-garly ul a:hover{
+        color:#20c997 ;
+    }
+
+
+
+    .garly-photo{
+        padding: 25px;
+        background-color: #212529;
+        display: flex;
+
+    }
+    .colm-garly1{
+        display: flex;
+        margin: 10px;
+        flex-direction: column;
+        width: 30%  ;
+        position: relative;
+        text-align: all 3s;
+        overflow: hidden;
+    }
+    
+    .data1{
+        width: 100%;
+        position: relative;
+        transition: all 10s;
+        overflow: hidden;
+        
+        
+    }
+    .data1:hover .bac{
+        top:0px;
+    }
+
+
+    .data1 img{
+        width:100%;
+    }
+    .bac{
+        background-color: rgba(0, 0, 0, 0.6);
+        text-align: center;
+        position: absolute;
+        color: white;
+        transition: all 1s;
+        top: 300PX;
+        bottom: 0px;
+        width: 100%;        
+    }
+    .bac h2{
+        padding-top: 70px;
+    }
+
+
+
+
+
+
+
+    .data2{
+        width: 100%;
+        position: relative;
+        transition: all 10s;
+
+        overflow: hidden;
+        
+    }
+    .data2 img{
+        width:100%;
+    }
+.bac2{
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    position: absolute;
+    color: white;
+    transition: all 1s;
+    top: 5000PX;
+    bottom: 0px;
+    width: 100%;        
+}
+.data2:hover .bac2{
+    top:0px;
+}
+.bac2 h2{
+    padding-top: 100px;
+}
+
+    
+
+    
+    .colm-garly2{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        width: 30%  ;
+    }
+    .colm-garly2 img{
+        margin: 5px;
+        border-radius: 5px;
+        
+    }
+    .colm-garly3{
+        display: flex;
+        flex-direction: column;
+        width: 30%  ;
+
+    }
+    .colm-garly3 img{
+        margin: 5px;
+        border-radius: 5px;
+        
+    }
+
+/* first cliinet */
+
+
+
+    .cliinet{
+        padding: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+.contanir1{
+    background-color: #f8f9fa!important;
+    margin: 10px;
+    position: relative;
+    width: 40%  ;
+
+}
+.contanir1 img{
+    margin: 30px;
+    border-radius: 50px;
+}
+
+.contanir1 h3{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+.contanir1 h4{
+    position: absolute;
+    top: 60px;
+    color: #6c757d;
+    left: 100px;
+
+}
+
+
+.contanir1 p{
+    font-weight: 500;
+text-align: center  ;
+    margin-bottom: 10px;
+}
+.contanir1 I{
+    margin: 10px;
+}
+.contanir1{
+    background-color: #f8f9fa!important;
+    margin: 10px;
+    position: relative;
+    width: 40%  ;
+
+}
+.contanir1 img{
+    margin: 30px;
+    border-radius: 50px;
+}
+
+.contanir1 h3{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+.contanir1 h4{
+    position: absolute;
+    top: 60px;
+    color: #6c757d;
+    left: 100px;
+
+}
+
+
+.contanir1 p{
+    font-weight: 500;
+text-align: center  ;
+    margin-bottom: 10px;
+}
+.contanir1 I{
+    margin: 10px;
+}
+
+
+.contanir2{
+    background-color: #f8f9fa!important;
+    margin: 10px;
+    position: relative;
+    width: 40%  ;
+
+}
+.contanir2 img{
+    margin: 30px;
+    border-radius: 50px;
+}
+
+.contanir2 h3{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+.contanir2 h4{
+    position: absolute;
+    top: 60px;
+    color: #6c757d;
+    left: 100px;
+
+}
+
+
+.contanir2 p{
+    font-weight: 500;
+text-align: center  ;
+    margin-bottom: 10px;
+}
+.contanir2 I{
+    margin: 10px;
+}
+.contanir2{
+    background-color: #f8f9fa!important;
+    margin: 10px;
+    position: relative;
+    width: 40%  ;
+
+}
+.contanir2 img{
+    margin: 30px;
+    border-radius: 50px;
+}
+
+.contanir2 h3{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+.contanir2 h4{
+    position: absolute;
+    top: 60px;
+    color: #6c757d;
+    left: 100px;
+
+}
+
+
+.contanir2 p{
+    font-weight: 500;
+text-align: center  ;
+    margin-bottom: 10px;
+}
+.contanir2 I{
+    margin: 10px;
+}
+
+
+
+
+
+
+/* FIRST CONTACT */
+.CONTANT{
+
+    background-color: #f8f9fa;
+
+}
+
+
+.contant-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  position: relative;
+}
+.contant-logo h2{
+    line-height: 1.3;
+    font-size: calc(1.95rem + 8.4vw) !important;
+    color: #dee3e4 !important;
+    opacity: 0.4;
+}
+
+.contant-logo p{
+    font-size: 2.25rem !important;
+    color: #212529!important;
+padding-top: 20px;
+position: absolute;
+margin-top: 30px;
+}
+
+.contant-logo hr{
+    border: 1px solid #20c997;
+    position: absolute;
+    right: 48%;
+    width: 70px;
+    top: 100px;
+}
+
+.contant-contanir{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.contant-colm1{
+    margin-left: 25px;
+    width: 30%;
+}
+.contant-colm1 h3{
+    font-size: 1.3125rem !important;
+    text-transform: uppercase!important;
+    margin-bottom: 10px;
+    color: #252b33;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.contant-colm1 h6{
+    color: #252b33;
+    line-height: 1.8;
+}
+
+
+.contant-colm1 h2{
+
+margin: 10px 0px ;
+
+    color: #252b33;
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+
+
+
+
+
+
+.contant-colm2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+.contant-colm2 h3{
+    width: 100%;
+}
+.contant-colm2 button{
+    color: white;
+        width: 100px;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+
+
+    background-color: #20c997;
+    border-color: #20c997;
+    border-radius: 50rem!important;
+}
+
+
+.mamr-bu{
+    width: 250px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    transition: 1s all  ;
+    border-radius:5PX;
+    transition:ALL 1S;
+/* 
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%); */
+}
+.mamr-bu:hover{
+    color: #212529;
+    background-color: #fff;
+    border-radius:5PX;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+
+}
+
+
+
+
+
+
+.emila-bu{
+    width: 250px;
+    height: 30px;
+    background-color: #fff;
+    transition: 1s all;
+    border-radius:5PX;
+    border: 1px solid #ced4da;
+
+}
+
+.emila-bu:hover{
+    color: #212529;
+    background-color: #fff;
+    border-radius:5PX;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+
+}
+
+
+
+.text-message{
+    width: 100% ;
+background-color: #fff;
+border: 1px solid #ced4da;
+transition: 1s all  ;
+    height: 50px;
+}
+.text-message:hover{
+
+    color: #212529;
+    background-color: #fff;
+    border-radius:5PX;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+
+}
+
+
+
+
+
+
+/* first copy-right */
+
+
+
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+
+
+.right{
+    margin: 10px;
+}
+.right p{
+    color: #252b33;
+}
+
+
+.right p a{
+    text-decoration: none;
+    color:  #20c997;
+}
+
+.left{
+    margin: 10px;
+}
+
+
+    .left ul{
+    display: flex;
+
+
+}
+.border{
+padding:1px;
+    border-right:1px solid #6c757d;
+
+}
+.left ul li{
+    list-style-type: none;
+    
+    margin-left:10px;
+
+    
+}
+.left ul li a{
+    text-decoration:none;
+    color: #4c4d4d;
+}
+.left ul li a:hover{
+  color: #20c997;
+}
+
+
+
